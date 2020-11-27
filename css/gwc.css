@@ -1,0 +1,151 @@
+*{
+	margin: 0; padding: 0;
+}
+
+/* 头部 */
+.cc2{
+	width: 1000px;margin: 0 auto;
+	display: flex;justify-content: space-between;padding-top: 20px;
+	border-bottom: solid 1px black;
+}
+.cc2 img{
+	width: 310px; height: 40px;
+}
+.cc3{
+	font-size: 12px; color: #A10000;display: flex;line-height: 40px;
+	justify-content: space-between; 
+}
+.cc3 ul li{
+	list-style: none;float: left;
+	margin-right: 5px;
+}
+.cc3 ul li a{
+	text-decoration: none;font-size: 12px; color: #A10000;
+}
+.cc3 p{
+	margin-right: 20px;
+}
+
+/* <!-- 成功提交订单 --> */
+.dd2{
+	width: 1000px; margin: 0 auto;margin-top: 10px;
+}
+.dd2 span{
+	font-size: 12px; display: inline-block;
+	width: 170px;line-height: 30px;text-align: center;
+}
+.dd2 span:nth-of-type(1){
+	background: #B80000;color: #fff;
+}
+.dd2 span:nth-of-type(2),.dd2 span:nth-of-type(3){
+	background: #EEEEEE;color: #666666;
+}
+
+.gg2{
+	width: 1000px; margin: 0 auto;height: 30px;
+	margin-top: 10px;
+}
+.gg2 p{
+	font-size: 18px; color: #333333; font-weight: bold;line-height: 20px;
+}
+.gg2 p span{
+	display: inline-block; width: 30px; height: 30px;
+	background: url(http://ssl.vanclimg.com/shopping/newpromotions/newpromotion.gif) no-repeat -465px 0px;
+	float: left;
+}
+.gg2 p b{
+	float: left;margin-top: 5px;margin-left: 20px;
+}
+.tip2{
+	width: 1000px; margin: 0 auto;font-size: 12px; 
+	color: #656565;line-height: 20px;margin-top: 10px;
+}
+.gou1{
+	width: 1000px; margin: 0 auto;
+}
+.gou1 thead{
+	background: #DBDBDB;font-size: 12px; color: #333333;
+	line-height: 40px;
+}
+.gou1 tbody td{
+	height: 70px;text-align: center;
+}
+.gou1 td:nth-of-type(2) img{
+	float: left;margin-left: 50px;
+}
+.gou1 td:nth-of-type(2) span{
+	font-size: 12px; color: #333333;float: left;
+	margin-top: 20px;margin-left: 20px;
+}
+.gou1 td:nth-of-type(4){
+	font-size: 12px; color: #333333;
+}
+.gou1 td:nth-of-type(6){
+	font-size: 12px; color: #333333;
+}
+.gou1 td:nth-of-type(7){
+	font-size:12px ;color: #999999;
+}
+.gou1 td:nth-of-type(5) button{
+	width: 20px;height: 20px;
+}
+.gou1 table{
+	border: solid 1px #CCCCCC;
+}
+.zong{
+	width: 1000px; margin: 0 auto;
+	border: solid 1px #CCCCCC;
+	background: #FFFEF5;margin-top: 20px;
+}
+.zong button{
+	margin-left: 40px;width: 50px; height: 30px;margin-top: 20px;
+}
+.zong p{
+	font-size: 14px;margin-left: 20px; margin-top: 20px;
+	display: inline-block;
+}
+.zong h2{
+	font-size: 12px; color: #333;margin-left: 20px;margin-top: 20px;
+	line-height: 40px;
+}
+.zong h2 span{
+	font-size: 24px; color: #A10000;
+}
+.zong1{
+	width: 100%;height: 50px;display: flex;
+	justify-content: flex-end;align-items: center;
+	padding-bottom: 20px;
+}
+.zong1 h3 a{
+	font-size: 14px;color:#666 ;text-decoration: none;
+	width: 122px;height: 38px;background: #E6E6E6;display: block;
+	text-align: center;line-height: 38px;cursor: pointer;
+}
+.zong1 h4 a{
+	font-size: 18px;display: block;width: 200px;height: 50px;
+	line-height: 50px;color: #fff;background: #C00B0B;text-align: center;
+	text-decoration: none;margin: 0 20px;
+}
+
+.footArea .foottop{
+	width: 100%; height: auto; margin: 0px auto;
+    /* border-top: 1px solid #3e3a39; */ margin-bottom:20px;
+}
+.foottop1{
+	width: 1200px; height: auto; margin: 10px auto;
+}
+.foottop1 p{
+	font-size: 12px;
+}
+.foottop1 p{
+	text-align: center; line-height: 25px; color: #3e3a39;
+}
+.footbottom{
+	width: 980px; margin: 0px auto 25px; text-align: center;
+}
+.footbottom a{
+	margin: 0 10px;
+}
+.footbottom a img{
+	height: 42px;
+}

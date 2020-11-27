@@ -1,0 +1,221 @@
+*{
+    margin:0px; padding:0px;
+}
+
+.top{
+    width:1200px; height:70px; margin:0 auto;
+}
+
+.top-logo{
+    margin-top:30px;
+}
+
+.main{
+    width: 1200px; height:520px; margin:0 auto;
+    border-top:1px solid #7a7f89;border-bottom:1px solid #7a7f89;
+    position:relative;
+}
+
+.main .left{
+    width:428px;height: 400px;margin-left:210px;margin-top:86px;
+    float:left;
+}
+
+.main .right{
+    width:500px; height:520px;float:left;position:relative;
+}
+
+.main .right strong{
+    font-size: 24px; color:#979797; position:absolute;top:20px;
+}
+
+.main .right span{
+    font-size:16px; color:#979797;position:absolute;top:24px;left:270px;
+
+}
+
+.main .right a{
+    font-size:16px; color:#B42025; text-decoration: none;
+	font-weight: bolder;
+
+}
+
+.all{
+    width:405px;height:430px; border:1px solid #CCCCCC;
+    margin-top:60px;
+}
+
+.all .nav{
+    height:35px;
+    border-bottom:1px solid #CCCCCC;
+
+}
+.all .nav a{
+    margin-right: 2px;display: block;
+    width:202px; height:35px;
+    background:#f5f5f5;float:left;
+    text-align: center;font-size: 16px;
+    color:#656565;line-height: 35px;cursor: pointer;
+		margin: 0 ;padding: 0;
+}
+.all .nav a:nth-child(1){
+	width: 203px;
+}
+.big{
+    width:399px;
+    height:269px;
+}
+.box{display: none;}
+.box .user{
+    width:362px; height:45px;
+    margin-left:9px; margin-top:34px;
+
+}
+.box .pass{
+    width:362px;height:45px;
+    margin-left:9px;margin-top:25px;
+
+}
+.box p:nth-child(3){
+ margin-left:315px;
+    color:#B42025;
+	font-weight: bolder;
+}
+
+.box .btn{
+    width:362px; height:45px; margin-left:9px; margin-top:30px;
+    background:#B42025; font-size: 20px; color:#ffffff;
+}
+
+.all .nav .b{
+    background:#B42025;color:#FFFFFF;
+}
+.cont-2 .phone{
+    width:252px;height:40px;margin-top:20px;margin-left:19px;
+}
+.button{
+    width:100px;height:42px;
+}
+.ma{
+    width:145px; height:45px; margin-left:26px; margin-top:10px;
+
+}
+.ma2{
+    width:148px; height:45px; margin-left:-37px;
+}
+
+.cont-2 .phone1{
+    width:362px;height:40px;margin-top:20px;margin-left:21px;
+}
+ .big>div{
+    width: 400px;height: 355px;text-align: center;
+   background-color: #FFFFFF;
+}
+/* .big>div[class="box active"]{
+    display: block;
+} 
+ */
+#false{
+    width:300px;height: 85px;border: 1px solid grey;border-radius: 10px;
+    box-shadow: 0 0 5px; font-size: 16px;background: #fff;position: absolute; top: 50px;left: 55px;z-index: 100; display: none;
+}
+#false p{
+    height: 50px;line-height: 50px;text-align: center;
+}
+#false #yes{
+    display: block;
+    width: 50px;height: 30px;line-height: 30px;margin: 0 auto;
+    color: #fff;background: rgb(180,32,37);border-radius: 5px;
+}
+
+.login_tp{
+    width: 270px;height: 270px;
+}
+.box{
+    display: flex;
+}
+.box .left1{
+    color: red;
+    font-size: 21px;
+    font-weight: 900;
+}
+.box .right1{
+    font-size: 18px;font-weight: 900;
+}
+.top-logo p{
+    color: gold;font-size: 40px;font-weight: 900;
+}
+
+.a1{
+    float: left; border-top: dashed 1px #909090;
+    margin-top: 40px;
+}
+.a1 p{
+    font-size: 14px; color: #a4a4a4;float: left;
+    margin-top: 10px; margin-left: 20px; 
+}
+.a1 img{
+    width: 315px; height: 40px; margin-left: 20px;
+    float: left;
+}
+
+.a2{
+    width: 1200px; margin: 0 auto;padding-bottom: 50px;
+}
+.a3{
+	width: 1200px; margin: 0 auto;
+}
+.a3 p{
+    font-size: 12px; color: #999; text-align: center;
+    margin-top: 20px;
+}
+.a4{
+   text-align: center;
+}
+.a4 img{
+    height: 50px; margin-top:20px; margin-left: 20px;
+}
+
+/* 快速登录 */
+.form2{
+	padding-top: 20px;
+}
+.form2 input:nth-of-type(1){
+	width: 250px; height: 45px;
+	margin-left: 20px;
+	float: left;
+}
+.form2 p{
+	font-size: 12px;
+	    width: 97px;
+	    height: 45px;
+	    text-align: center;
+	    line-height: 45px;
+	    background: #f5f5f5;
+	    color: #b52024;
+	    border: solid 1px #cbcbcb;
+	    display: inline-block;
+	    margin: 0 0 0 10px;
+	    font-weight: bolder;
+	float: left;
+}
+.form2 input:nth-of-type(2){
+	width: 250px; height: 45px;
+	margin-top: 20px;margin-left: 20px;
+	float: left;
+}
+.form2 img{
+	width: 100px; height: 47px;
+	float: left;margin-top: 20px; margin-left: 10px;
+}
+.form2 input:nth-of-type(3){
+	float: left;width: 360px;height: 45px;
+	margin-left: 20px;margin-top: 20px;
+}
+.form2 button{
+	width: 360px; height: 45px;background: #B42025;
+	color: #fff;font-size: 20px; margin-top: 20px; margin-left: 20px;
+}
+.aa0{
+	display: none;
+}

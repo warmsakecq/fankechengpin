@@ -1,0 +1,110 @@
+*{
+	margin: 0; padding: 0;
+}
+.top1{
+	width: 1200px; margin: 0 auto;margin-top: 30px;
+	border-bottom:solid 1px #333 ;
+}
+
+/* 中间 */
+.zhu1{
+	width: 1200px; margin: 0 auto;overflow: hidden;
+	border-bottom: solid 1px #000000;padding-bottom: 50px;
+}
+.zhu2{
+	margin-top: 100px; margin-left: 100px;
+	float: left;
+}
+.zhu3{
+	float: right;margin-top: 70px;width: 415px;
+	margin-right: 100px;
+}
+.zhu3 h1{
+	width: 415px;height: 38px; line-height: 38px;
+	font-size: 20px; color: #A2A2A2;display: flex;
+	justify-content: space-between;border-bottom: solid 2px #000;
+}
+.zhu3 h1 span{
+	font-size: 14px; color: #A2A2A2; 
+}
+.zhu3 h1 a{
+	text-decoration: none;color: #000000;
+}
+.zhu3 form{
+	margin-top: 30px;
+}
+.f1 input{
+	width: 262px; height: 45px;float: left;
+	border: solid 1px #ccc;outline: none;
+	
+}
+.f1 img{
+	float: left;width: 140px; height: 47px;
+	margin-left: 10px;
+}
+.f2{
+	margin-top: 10px;float: left;
+}
+.f2 input{
+	width: 262px; height: 45px;
+	border: solid 1px #ccc;outline: none;
+	float: left;
+}
+.f2 b{
+	display: inline-block; width: 140px; height: 47px;
+	font-size: 12px; color: #b52024;background: #F5F5F5;
+	float: left;margin-left: 10px;line-height: 47px;
+	text-align: center;
+}
+.f3 input{
+	width: 410px; height: 45px;border: solid 1px #ccc;outline: none;
+	margin-top: 10px;
+}
+.f4 input{
+	width: 410px; height: 45px;border: solid 1px #ccc;outline: none;
+	margin-top: 10px;
+}
+.f5 input{
+	width: 410px; height: 45px;border: solid 1px #ccc;outline: none;
+	margin-top: 10px;
+}
+.f6{
+	margin-top: 20px;
+}
+.f6 span{
+	font-size: 14px; color:#9d9d9d;
+}
+.f6 span a{
+	font-size: 12px;color: #B52024;text-decoration: none;
+	font-weight: bold;margin-left: 5px;
+}
+.zhu3 button{
+	width: 410px; height: 45px; color: #fff;
+	background: #9A9A9A; text-align: center;line-height: 45px;
+	font-size: 16px;margin-top: 10px;outline: none;
+	border: 1px solid #CCCCCC;
+}
+
+/* 底部通栏 */
+.footArea .foottop{
+	width: 100%; height: auto; margin: 0px auto;
+    margin-bottom:20px;
+}
+.foottop1{
+	width: 1200px; height: auto; margin: 10px auto;
+}
+.foottop1 p{
+	font-size: 12px;
+}
+.foottop1 p{
+	text-align: center; line-height: 25px; color: #3e3a39;
+}
+.footbottom{
+	width: 980px; margin: 0px auto 25px; text-align: center;
+}
+.footbottom a{
+	margin: 0 10px;
+}
+.footbottom a img{
+	height: 42px;
+}
